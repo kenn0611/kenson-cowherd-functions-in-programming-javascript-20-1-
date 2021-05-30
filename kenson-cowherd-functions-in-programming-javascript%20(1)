@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	
+	  <head>
+			  <title> Dragon Damage :D</title>
+	  </head>	
+		<body>
+			  <button id="button" onClick=" addMe(1)">
+             Fire Attack
+			  </button>
+				 
+			
+		 <button id="button" onClick=" addMe(1)">
+           Ice Attack
+			  </button>
+			
+			
+			 <button id="button" onClick=" addMe(1)">
+           Poison Attack
+			  </button>
+			
+			<div id="numbers"></div>
+			 
+</html>			
+</body>
+
+
+var number = 0;
+
+function writeNumber(){
+  document.querySelector("#numbers").innerHTML=number;
+}
+ 
+function addMe(){
+  number = number+1;
+  
+  writeNumber();
+}
+
+writeNumber();
+
+
+var number = 0;
+
+function writeNumber(){
+  document.querySelector("#numbers").innerHTML=number;
+}
+
+function addMe(){
+  number = number+1;
+  
+  writeNumber();
+}
+
+writeNumber();
+
+
+var number = 0;
+
+function writeNumber(){
+  document.querySelector("#numbers").innerHTML=number;
+}
+
+function addMe(){
+  number = number+1;
+  
+  writeNumber();
+}
+
+writeNumber();
